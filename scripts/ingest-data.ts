@@ -7,7 +7,8 @@ import { PINECONE_INDEX_NAME, PINECONE_NAME_SPACE } from '@/config/pinecone';
 import { DirectoryLoader } from 'langchain/document_loaders/fs/directory';
 
 /* Name of directory to retrieve your files from */
-const filePath = "/Users/matthewsalaway/Downloads/Ferri'sClinicalAdvisor(shortened)copyTest.pdf";
+// const filePath = "/Users/matthewsalaway/Downloads/Ferri'sClinicalAdvisor(shortened)copyTest.pdf";
+const filePath = 'docs/';
 
 export const run = async () => {
   try {
